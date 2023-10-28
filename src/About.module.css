@@ -1,0 +1,31 @@
+.about{
+  margin: auto;
+  margin-top: 10%;
+  width: 70%;
+}
+
+.aboutTitle {
+  text-align: center;
+  margin: 8px;
+  font-size: 40px;
+}
+
+.aboutSubtitle {
+  text-align: center;
+  margin: 8px;
+  font-size: 20px;
+  color: gray;
+}
+
+.aboutText {
+  margin-top: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.aboutSection {
+  margin: 52px 20px 52px 20px;
+  padding-bottom: 52px;
+  border-bottom: 1px solid;
+  border-color: #D9E1EC;
+}

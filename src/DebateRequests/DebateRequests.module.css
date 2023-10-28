@@ -1,0 +1,50 @@
+.debateRequests{
+    margin: 10%;
+    height: 100px;
+}
+
+.debateRequestsTitle{
+    font: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.debateRequestsSubitle{
+    font: 'Inter';
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #667085;
+}
+
+.debateRequestsHeader {
+    margin: 0px 0px 50px 0px;
+}
+
+.debateSection{
+   display: flex;
+}
+
+.debateInnerSection{
+    margin-left: 20px;
+}
+
+.debateSectionTitle {
+    font: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.debateSectionSummary {
+    font: 'Inter';
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #667085;
+}
+
+.debateSectionImg {
+    width: 80px;
+    height: 80px;
+    border-radius:4px;
+}
