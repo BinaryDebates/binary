@@ -1,6 +1,6 @@
 import About from "./About";
-import { LoginPopup } from "./components/Login";
-import NavBar from "./components/NavBar";
+import { LoginPopup } from "./Login";
+import NavBar from "./NavBar";
 import { DebateRequests } from "./DebateRequests/DebateRequests";
 import styles from './App.module.css';
 import { DebateProfile } from "./DebateProfile/DebateProfile";

@@ -44,3 +44,22 @@
     color: white;
     background-color: black;
 }
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+.debateParticipants {
+    margin: 5% auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.participantSection {
+    display:block;
+}

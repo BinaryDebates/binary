@@ -4,7 +4,6 @@
 }
 
 .debateRequestsTitle{
-    font: 'Inter';
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 12px;
@@ -37,10 +36,10 @@
 }
 
 .debateSectionSummary {
-    font: 'Inter';
     font-size: 18px;
     margin-bottom: 12px;
-    color: #667085;
+    color: black;
+    text-decoration:none;
 }
 
 .debateSectionImg {

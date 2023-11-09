@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import { DebateRequests } from './DebateRequests/DebateRequests';
 import { App } from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
