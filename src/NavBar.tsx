@@ -48,7 +48,7 @@ const NavBar = (navBarProps: NavBarProps) => {
               <a href='/about' className={styles.navLink}>About</a>
             </li>
             <li onClick={removeActive}>
-              <a href='/debateRequest' className={styles.navLink}>Request a debate</a>
+              <a href='https://forms.gle/GS2hrsZ12BstKHHh7' className={styles.navLink}>Request a debate</a>
             </li>
      
           </ul>

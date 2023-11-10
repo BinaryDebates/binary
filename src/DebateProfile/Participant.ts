@@ -9,6 +9,7 @@ export interface Participant {
     id:ParticipantId,
     name: string,
     role: ParticipantRole,
+    imgRoute:string,
 }
 
 export type ParticipantRole = 'moderator' | 'participant';
