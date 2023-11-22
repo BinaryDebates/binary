@@ -25,6 +25,7 @@ async function run() {
     db.once('open', () => {
         console.log('MongoDB Connection Established.');
     })
+    
     const app = express(); 
     app.use(morgan('combined'));
     app.use(bodyParser.urlencoded({extended: true}));
