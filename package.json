@@ -1,0 +1,9 @@
+{
+  "name": "binary",
+  "workspace": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "cd packages/binary-node && yarn run build && cd ../../packages/binary-web && yarn run build"
+  }
+}
