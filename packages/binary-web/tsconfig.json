@@ -14,11 +14,17 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@imgs/*": ["imgs/*"],
+      "@/*": ["*"],
+    },
   },
   "include": [
     "src"

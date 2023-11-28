@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import  styles from './NavBar.module.css';
+import styles from './NavBar.module.css';
 import binaryLogo from './imgs/binaryLogo.png'
 import {gapi} from 'gapi-script';
 

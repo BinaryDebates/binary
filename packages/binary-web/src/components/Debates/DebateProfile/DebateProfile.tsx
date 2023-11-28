@@ -1,11 +1,11 @@
 import React from "react";
 import  styles from './DebateProfile.module.css';
-import rfkvshotez from '../../imgs/rfkvshotez.jpeg';
+import rfkvshotez from '../../../imgs/rfkvshotez.jpeg';
 import { Participant, ParticipantId } from "./Participant";
 import * as uuid from 'uuid';
-import hotez from '../../imgs/hotez.jpeg';
-import RFK from '../../imgs/RFK.jpeg';
-import JR from '../../imgs/JR.jpeg';
+import hotez from '../../../imgs/hotez.jpeg';
+import RFK from '../../../imgs/RFK.jpeg';
+import JR from '../../../imgs/JR.jpeg';
 export const DebateProfile = () => {
     const dummyParticipants:DebateParticipantsProps = {
         participants:[
