@@ -1,8 +1,7 @@
 import React from "react"
-import NavBar from "../NavBar";
 import  styles from './DebateRequests.module.css';
 import rfkvshotez from '../imgs/rfkvshotez.jpeg';
-import { DebateProfile } from "../DebateProfile/DebateProfile";
+
 import { useNavigate } from "react-router-dom";
 export const DebateRequests = () =>{
 
@@ -45,7 +44,7 @@ const DebateSection = (debateSectionProps:DebateSectionProps) => {
 
     return(
     <div className={styles.debateSection}>
-         <img className={styles.debateSectionImg} onClick={toDebateProfile}  src={debateSectionProps.imgRoute}/>
+         <img className={styles.debateSectionImg} alt={'Debate section'} onClick={toDebateProfile}  src={debateSectionProps.imgRoute}/>
         <div className={styles.debateInnerSection}>
             <h1 className={styles.debateSectionTitle}>{debateSectionProps.title}</h1>
             <p className={styles.debateSectionSummary}>{debateSectionProps.summary}</p>

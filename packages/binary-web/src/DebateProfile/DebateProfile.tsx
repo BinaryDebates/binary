@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import  styles from './DebateProfile.module.css';
 import rfkvshotez from '../imgs/rfkvshotez.jpeg';
 import { Participant, ParticipantId } from "./Participant";
@@ -18,7 +17,7 @@ export const DebateProfile = () => {
     // static for now
     return(
         <div className={styles.debateProfile}>
-              <img className={styles.debateProfileImg}  src={rfkvshotez}/>
+              <img className={styles.debateProfileImg} alt={'Debate profile'} src={rfkvshotez}/>
             <div className={styles.debateProfileHeader}>
                 <div>
                     <h1 className={styles.debateSectionTitle}>{'RFK vs Hotez'}</h1>
@@ -54,7 +53,7 @@ export const DebateParticipants = ({participants}: DebateParticipantsProps) => {
 export const DebateParticipant = (participant: Participant) => {
     return (
         <div>
-            <img className={styles.participantImg} src={participant.imgRoute}/>
+            <img className={styles.participantImg} alt={'Participant profile'} src={participant.imgRoute}/>
             <h1 className={styles.centeredText}>{participant.name}</h1>
             <p className={styles.centeredText}>{participant.role}</p>
         </div>

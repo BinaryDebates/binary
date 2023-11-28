@@ -1,21 +1,22 @@
-import React, { Dispatch, SetStateAction, useState } from 'react';
-// import {GoogleLogin} from 'react-google-login';
+import React, { Dispatch, SetStateAction } from 'react';
 import styles from './Login.module.css';
 import { Modal } from 'react-bootstrap';
 import TwitterLogin from "react-twitter-login";
-import GoogleButton from 'react-google-button';
+// import {GoogleLogin} from 'react-google-login';
+// import GoogleButton from 'react-google-button';
+
 // TODO: SETUP CLIENT ID PROPERLY BEFORE LAUNCH!!!
-const googleClientId = '1020258403267-qacp7l47fmp5a1669ejpgsm9lufs2kgt.apps.googleusercontent.com';
+// const googleClientId = '1020258403267-qacp7l47fmp5a1669ejpgsm9lufs2kgt.apps.googleusercontent.com';
 const twitterClientId = 'YjlENWwtLTNFTm4wdlY0a04wLU06MTpjaQ';
 const twitterClientSecret = 'wgeeFAKLfqEeSpJJVtz11bpmAaf6R2ToAcKaRBHG4mWT6-BRyj';
 
-const onSuccess = () => {
-    console.log("Login success.");
-}
+// const onSuccess = () => {
+//     console.log("Login success.");
+// }
 
-const onFailure = () => {
-    console.log("Login failed.");
-}
+// const onFailure = () => {
+//     console.log("Login failed.");
+// }
 
 export interface LoginPopupProps {
     show: boolean;
