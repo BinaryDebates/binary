@@ -1,9 +1,9 @@
 import About from "./About";
 import { LoginPopup } from "./Login";
 import NavBar from "./NavBar";
-import { DebateRequests } from "./DebateRequests/DebateRequests";
+import { DebateRequests } from "./components/DebateRequests/DebateRequests";
 import styles from './App.module.css';
-import { DebateProfile } from "./DebateProfile/DebateProfile";
+import { DebateProfile } from "./components/DebateProfile/DebateProfile";
 import { useState } from "react";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import { Routes } from "react-router-dom";

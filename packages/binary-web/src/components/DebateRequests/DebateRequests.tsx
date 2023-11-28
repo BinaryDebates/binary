@@ -1,6 +1,6 @@
 import React from "react"
 import  styles from './DebateRequests.module.css';
-import rfkvshotez from '../imgs/rfkvshotez.jpeg';
+import rfkvshotez from '../../imgs/rfkvshotez.jpeg';
 
 import { useNavigate } from "react-router-dom";
 export const DebateRequests = () =>{
