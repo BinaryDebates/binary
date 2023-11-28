@@ -1,11 +1,20 @@
 {
   "name": "binary",
-  "workspace": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "version": "0.0.1",
   "license": "ISC",
+  "private": true,
   "scripts": {
-    "build": "cd packages/binary-node && yarn run build && cd ../../packages/binary-web && yarn run build"
-  }
+    "build": "concurrently \"yarn workspace @binary/binary-node run build\" \"yarn workspace @binary/binary-web run build\"",
+    "start": "concurrently \"yarn workspace @binary/binary-node run start\" \"yarn workspace @binary/binary-web run start\"" 
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "tsconfig": "*",
+  "eslint-config-custom": "*"
 }

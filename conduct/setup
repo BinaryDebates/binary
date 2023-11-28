@@ -1,0 +1,10 @@
+#!/usr/bin/env zsh
+
+set -e -u -o pipefail
+
+echo "Conducting Setup..."
+
+yarn workspace @binary/binary-node install
+yarn workspace @binary/binary-web install
+
+echo "Setup Complete"

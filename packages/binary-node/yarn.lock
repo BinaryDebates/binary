@@ -5,6 +5,28 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@binary/binary-node@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@binary/binary-node@workspace:."
+  dependencies:
+    "@types/body-parser": "npm:^1.19.5"
+    "@types/express": "npm:^4.17.21"
+    "@types/mongoose": "npm:^5.11.97"
+    "@types/morgan": "npm:^1.9.9"
+    "@types/node": "npm:^20.9.0"
+    body-parser: "npm:^1.20.2"
+    compose-middleware: "npm:^5.0.1"
+    express: "npm:^4.18.2"
+    mongodb: "npm:^6.3.0"
+    mongoose: "npm:^8.0.0"
+    morgan: "npm:^1.10.0"
+    nodemon: "npm:^3.0.1"
+    rimraf: "npm:^5.0.5"
+    ts-node: "npm:^10.9.1"
+    typescript: "npm:^5.2.2"
+  languageName: unknown
+  linkType: soft
+
 "@cspotcode/source-map-support@npm:^0.8.0":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -412,28 +434,6 @@ __metadata:
   checksum: d73d8b897238a2d3ffa5f59c0241870043aa7471335e89ea5e1ff48edb7c2d0bb471517a3e4c5c3f4c043615caa2717b5f80a5e61e07503d51dc85cb848e665d
   languageName: node
   linkType: hard
-
-"binary-node@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "binary-node@workspace:."
-  dependencies:
-    "@types/body-parser": "npm:^1.19.5"
-    "@types/express": "npm:^4.17.21"
-    "@types/mongoose": "npm:^5.11.97"
-    "@types/morgan": "npm:^1.9.9"
-    "@types/node": "npm:^20.9.0"
-    body-parser: "npm:^1.20.2"
-    compose-middleware: "npm:^5.0.1"
-    express: "npm:^4.18.2"
-    mongodb: "npm:^6.3.0"
-    mongoose: "npm:^8.0.0"
-    morgan: "npm:^1.10.0"
-    nodemon: "npm:^3.0.1"
-    rimraf: "npm:^5.0.5"
-    ts-node: "npm:^10.9.1"
-    typescript: "npm:^5.2.2"
-  languageName: unknown
-  linkType: soft
 
 "body-parser@npm:1.20.1":
   version: 1.20.1
