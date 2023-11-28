@@ -1,15 +1,14 @@
-import { Box } from "@chakra-ui/react";
-import React, { Component } from "react"
+import { Box } from '@chakra-ui/react'
+import React, { Component } from 'react'
 
-
-interface DebateSectionProps {
-  title:string;
-  summary: string;
-  imgRoute: string;
-}
+// interface DebateSectionProps {
+//   title: string
+//   summary: string
+//   imgRoute: string
+// }
 
 export default class Debate extends Component {
-  render() {
+  render (): React.JSX.Element {
     return (
       <Box>
         Hello
@@ -19,9 +18,9 @@ export default class Debate extends Component {
 }
 
 // const DebateSection = (debateSectionProps:DebateSectionProps) => {
-//   let navigate = useNavigate(); 
-//   const toDebateProfile = () =>{ 
-//     let path = `/debateProfile`; 
+//   let navigate = useNavigate();
+//   const toDebateProfile = () =>{
+//     let path = `/debateProfile`;
 //     navigate(path);
 //   }
 

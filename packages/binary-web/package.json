@@ -31,7 +31,7 @@
     "react-scripts": "^5.0.1",
     "react-twitter-login": "^1.5.0",
     "storybook": "^7.5.3",
-    "typescript": "^4.9.5",
+    "typescript": "*",
     "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -41,14 +41,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "plugin:storybook/recommended"
-    ]
+    "build-storybook": "storybook build",
+    "lint": "eslint --fix --ext js,jsx,ts,tsx ."
   },
   "browserslist": {
     "production": [
@@ -72,7 +66,14 @@
     "@storybook/react": "^7.5.3",
     "@storybook/react-webpack5": "^7.5.3",
     "@storybook/testing-library": "^0.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
     "webpack": "^5.89.0"
