@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, useState } from 'react';
-import {GoogleLogin} from 'react-google-login';
+// import {GoogleLogin} from 'react-google-login';
 import styles from './Login.module.css';
 import { Modal } from 'react-bootstrap';
 import TwitterLogin from "react-twitter-login";
@@ -31,7 +31,8 @@ export function LoginPopup(loginPopupProps: LoginPopupProps) {
         </Modal.Header>
         <Modal.Body>
         <div className={styles.login}>
-            <GoogleLogin className={styles.googleLossgin} clientId={googleClientId}
+            TODO: fixme
+            {/* <GoogleLogin className={styles.googleLossgin} clientId={googleClientId}
             buttonText = 'Sign in with Google'
             onSuccess={onSuccess}
             onFailure={onFailure}
@@ -52,7 +53,7 @@ export function LoginPopup(loginPopupProps: LoginPopupProps) {
                 }} onClick={renderProps.onClick} disabled={renderProps.disabled}>Sign in with Google</GoogleButton>
               )}
             >
-            </GoogleLogin> 
+            </GoogleLogin>  */}
         </div>
         <div className={styles.login}>
             <TwitterLogin

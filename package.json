@@ -3,6 +3,8 @@
   "workspace": [
     "packages/*"
   ],
+  "version": "0.0.1",
+  "license": "ISC",
   "scripts": {
     "build": "cd packages/binary-node && yarn run build && cd ../../packages/binary-web && yarn run build"
   }
