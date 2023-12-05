@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          conduct/setup
+          ./conduct/setup
           yarn run build --if-present
           yarn run test --if-present
 
