@@ -23,7 +23,8 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          cd conduct
+          ls
+          cd ~/conduct
           ./setup
           yarn run build --if-present
           yarn run test --if-present
