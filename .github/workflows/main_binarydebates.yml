@@ -21,13 +21,11 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: npm install, build, and test
+      - name: yarn install, build
         run: |
-          ls
-          cd ~/conduct
-          ./setup
+          yarn cache clean
+          yarn run install  
           yarn run build --if-present
-          yarn run test --if-present
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r

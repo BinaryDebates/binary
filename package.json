@@ -9,8 +9,9 @@
   "license": "ISC",
   "private": true,
   "scripts": {
+    "install": "yarn workspace @binary/binary-node install --network-timeout 1000000 && yarn workspace @binary/binary-web install --network-timeout 1000000",
     "build": "concurrently \"yarn workspace @binary/binary-node run build\" \"yarn workspace @binary/binary-web run build\"",
-    "start": "concurrently \"yarn workspace @binary/binary-node run start\" \"yarn workspace @binary/binary-web run start\"" 
+    "start": "concurrently \"yarn workspace @binary/binary-node run start\" \"yarn workspace @binary/binary-web run start\""
   },
   "dependencies": {
     "concurrently": "^8.2.2"
