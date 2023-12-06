@@ -21,11 +21,12 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: yarn install, build
+      - name: npm install, build, and test
         run: |
           yarn cache clean
           yarn run install  
           yarn run build
+
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
 
@@ -58,4 +59,4 @@ jobs:
           app-name: 'binarydebates'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BC63B12B4AFE4EFEA871E1FF1AA260D5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84B668817439451AB255EA1BD36D0B9F }}
