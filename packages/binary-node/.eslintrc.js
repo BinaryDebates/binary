@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['standard-with-typescript', 'plugin:react/recommended'],
+  extends: ['standard-with-typescript'],
   overrides: [
     {
       env: {
@@ -21,10 +21,5 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {
-    '@typescript-eslint/semi': ['off', null],
-    '@typescript-eslint/member-delimiter-style': 'off',
-    '@typescript-eslint/comma-dangle': 'off',
-    '@typescript-eslint/space-before-function-paren': 'off',
-  },
+  rules: {},
 };
