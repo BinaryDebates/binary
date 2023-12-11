@@ -1,60 +1,40 @@
 import React from 'react'
-import styles from './DebateProfile.module.css'
-import rfkvshotez from '../../../imgs/rfkvshotez.jpeg'
-import { type Participant, ParticipantId } from './Participant'
-import * as uuid from 'uuid'
-import hotez from '../../../imgs/hotez.jpeg'
-import RFK from '../../../imgs/RFK.jpeg'
-import JR from '../../../imgs/JR.jpeg'
-export const DebateProfile = (): React.JSX.Element => {
-  const dummyParticipants: DebateParticipantsProps = {
-    participants: [
-      { name: 'RFK', id: ParticipantId.of(uuid.v4()), role: 'participant', imgRoute: RFK },
-      { name: 'Hotez', id: ParticipantId.of(uuid.v4()), role: 'moderator', imgRoute: hotez },
-      { name: 'Joe Rogan', id: ParticipantId.of(uuid.v4()), role: 'moderator', imgRoute: JR }
-    ]
-  }
-  // static for now
+
+import DebateDescription from './DebateDescription'
+import type Debate from 'models/Debate'
+import { generateRandomDebate, totalPledges } from 'models/Debate'
+import { Flex, Image, StackDivider, VStack } from '@chakra-ui/react'
+import DebateProgress from './DebateProgress'
+import { DebateParticipants } from './DebateParticipants'
+import Leaderboard from './Leaderboard'
+import Terms from './Terms'
+
+export interface DebateProfileProps {
+  debate: Debate
+}
+
+export function DebateProfile ({ debate }: DebateProfileProps): React.JSX.Element {
+  const progress = totalPledges(debate)
   return (
-        <div className={styles.debateProfile}>
-              <img className={styles.debateProfileImg} alt={'Debate profile'} src={rfkvshotez}/>
-            <div className={styles.debateProfileHeader}>
-                <div>
-                    <h1 className={styles.debateSectionTitle}>{'RFK vs Hotez'}</h1>
-                    <p className={styles.debateSectionSummary}>{'Debate on the safety and efficacy of vaccines'}</p>
-                </div>
-                <div className={styles.buttons}>
-                    <button className={styles.shareButton}>Share</button>
-                    <button className={styles.pledgeButton}>$1.2mil Pledged</button>
-                </div>
-            </div>
-            <hr className="solid" />
-            {DebateParticipants(dummyParticipants)}
-        </div>
+    <Flex direction='column' alignContent='center' w="100%">
+      <Image src={debate.imgRoute} alt={debate.name} height='300px' w='100%' top='80px' bottom='60px' />
+      <VStack
+        w='62.5%'
+        marginX='auto'
+        divider={<StackDivider />}
+        spacing='30px'
+      >
+        <DebateDescription {...debate} progress={progress} />
+        <DebateProgress {...debate} progress={progress} pledgeCount={debate.pledges.length} />
+        <DebateParticipants {...debate} />
+        <Leaderboard {...debate} />
+        <Terms {...debate.terms} />
+      </VStack>
+    </Flex>
   )
 }
 
-interface DebateParticipantsProps {
-  participants: Participant[]
-}
-
-export const DebateParticipants = ({ participants }: DebateParticipantsProps): React.JSX.Element => {
-  return (
-<div className={styles.participantSection}>
-             <h1 >Participants</h1>
-            <div className={styles.debateParticipants}>
-                {participants.map((participant) => DebateParticipant(participant))}
-            </div>
-        </div>
-  )
-}
-
-export const DebateParticipant = (participant: Participant): React.JSX.Element => {
-  return (
-        <div>
-            <img className={styles.participantImg} alt={'Participant profile'} src={participant.imgRoute}/>
-            <h1 className={styles.centeredText}>{participant.name}</h1>
-            <p className={styles.centeredText}>{participant.role}</p>
-        </div>
-  )
+export function DefaultDebateProfile (): React.JSX.Element {
+  const debate = generateRandomDebate()
+  return <DebateProfile debate={debate} />
 }

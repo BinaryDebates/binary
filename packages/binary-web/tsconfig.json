@@ -20,11 +20,6 @@
     "noEmit": true,
     "jsx": "preserve",
     "baseUrl": "./src",
-    "paths": {
-      "@components/*": ["components/*"],
-      "@imgs/*": ["imgs/*"],
-      "@/*": ["*"],
-    },
   },
   "include": [
     "src"

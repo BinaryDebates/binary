@@ -17,10 +17,14 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/preset-create-react-app"),
     getAbsolutePath("@storybook/addon-onboarding"),
     getAbsolutePath("@storybook/addon-interactions"),
+    getAbsolutePath("@chakra-ui/storybook-addon"),
   ],
   framework: {
     name: getAbsolutePath("@storybook/react-webpack5"),
     options: {},
+  },
+  core: {
+    builder: "@storybook/builder-webpack5"
   },
   docs: {
     autodocs: "tag",

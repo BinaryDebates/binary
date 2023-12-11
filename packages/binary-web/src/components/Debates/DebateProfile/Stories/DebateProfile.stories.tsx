@@ -1,6 +1,7 @@
 import React from 'react'
-import { DebateProfile } from './DebateProfile'
+import { DebateProfile } from '../DebateProfile'
 import type { StoryObj } from '@storybook/react'
+import { generateRandomDebate } from 'models/Debate'
 
 export default {
   title: 'Debate Profile',
@@ -9,6 +10,8 @@ export default {
 
 type Story = StoryObj<typeof DebateProfile>
 
+const debate = generateRandomDebate()
+
 export const Primary: Story = {
-  render: () => <DebateProfile />
+  render: () => <DebateProfile debate={debate}/>
 }
