@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "serve -s build",
     "start": "npm run build && node build/server.js &",
     "build": "rimraf ./build && tsc"
   },

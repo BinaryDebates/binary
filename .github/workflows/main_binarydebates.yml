@@ -61,5 +61,5 @@ jobs:
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84B668817439451AB255EA1BD36D0B9F }}
 
-      - name: 'Start server'
-        run: cd release && yarn run start
+      - name: 'Start serving the app'
+        run: yarn run serve
