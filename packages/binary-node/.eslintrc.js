@@ -21,5 +21,11 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/semi': ['off', null],
+    '@typescript-eslint/member-delimiter-style': 'off',
+    '@typescript-eslint/comma-dangle': 'off',
+    '@typescript-eslint/space-before-function-paren': 'off',
+  },
 };
