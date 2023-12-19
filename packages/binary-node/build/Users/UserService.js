@@ -81,7 +81,9 @@ class UserService {
     getUserByEmail(email) {
         return __awaiter(this, void 0, void 0, function* () {
             const UserModel = mongoose_1.default.model('User', UserModel_1.UserSchema);
-            return yield UserModel.findOne((user) => user.email === email);
+            const user = yield UserModel.findOne({ email });
+            console.dir(user, { depth: null });
+            return user;
         });
     }
     getUserById(id) {

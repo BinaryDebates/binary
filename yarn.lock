@@ -1704,7 +1704,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@binary/binary-node@workspace:packages/binary-node"
   dependencies:
-<<<<<<< Updated upstream
     "@types/bcrypt": "npm:^5"
     "@types/body-parser": "npm:^1.19.5"
     "@types/csurf": "npm:^1.11.5"
@@ -1720,25 +1719,12 @@ __metadata:
     csurf: "npm:^1.11.0"
     express: "npm:^4.18.2"
     express-session: "npm:^1.17.3"
-=======
-    "@types/body-parser": "npm:^1.19.5"
-    "@types/express": "npm:^4.17.21"
-    "@types/mongoose": "npm:^5.11.97"
-    "@types/morgan": "npm:^1.9.9"
-    "@types/node": "npm:^20.9.0"
-    body-parser: "npm:^1.20.2"
-    compose-middleware: "npm:^5.0.1"
-    express: "npm:^4.18.2"
->>>>>>> Stashed changes
     mongodb: "npm:^6.3.0"
     mongoose: "npm:^8.0.0"
     morgan: "npm:^1.10.0"
     nodemon: "npm:^3.0.1"
-<<<<<<< Updated upstream
     passport: "npm:^0.7.0"
     passport-local: "npm:^1.0.0"
-=======
->>>>>>> Stashed changes
     rimraf: "npm:^5.0.5"
     ts-node: "npm:^10.9.1"
     typescript: "npm:^5.2.2"
@@ -1776,6 +1762,7 @@ __metadata:
     "@types/react-router-dom": "npm:^5.3.3"
     "@types/uuid": "npm:^9.0.7"
     "@typescript-eslint/eslint-plugin": "npm:^6.4.0"
+    axios: "npm:^1.6.2"
     axios-mock-adapter: "npm:^1.22.0"
     babel-plugin-named-exports-order: "npm:^0.0.2"
     bootstrap: "npm:^5.3.2"
@@ -4070,7 +4057,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "@mapbox/node-pre-gyp@npm:^1.0.11":
   version: 1.0.11
   resolution: "@mapbox/node-pre-gyp@npm:1.0.11"
@@ -4090,8 +4076,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "@mdx-js/react@npm:^2.1.5":
   version: 2.3.0
   resolution: "@mdx-js/react@npm:2.3.0"
@@ -6274,7 +6258,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "@types/bcrypt@npm:^5":
   version: 5.0.2
   resolution: "@types/bcrypt@npm:5.0.2"
@@ -6284,8 +6267,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "@types/body-parser@npm:*, @types/body-parser@npm:^1.19.5":
   version: 1.19.5
   resolution: "@types/body-parser@npm:1.19.5"
@@ -6342,7 +6323,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "@types/csurf@npm:^1.11.5":
   version: 1.11.5
   resolution: "@types/csurf@npm:1.11.5"
@@ -6352,8 +6332,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "@types/debug@npm:0.0.31":
   version: 0.0.31
   resolution: "@types/debug@npm:0.0.31"
@@ -6456,7 +6434,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "@types/express-session@npm:^1.17.10":
   version: 1.17.10
   resolution: "@types/express-session@npm:1.17.10"
@@ -6466,8 +6443,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "@types/express@npm:*, @types/express@npm:^4.17.13, @types/express@npm:^4.17.21, @types/express@npm:^4.7.0":
   version: 4.17.21
   resolution: "@types/express@npm:4.17.21"
@@ -6615,9 +6590,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
-"@types/mime@npm:*, @types/mime@npm:^1":
-=======
 "@types/mime@npm:*":
   version: 3.0.4
   resolution: "@types/mime@npm:3.0.4"
@@ -6626,7 +6598,6 @@ __metadata:
   linkType: hard
 
 "@types/mime@npm:^1":
->>>>>>> Stashed changes
   version: 1.3.5
   resolution: "@types/mime@npm:1.3.5"
   checksum: c2ee31cd9b993804df33a694d5aa3fa536511a49f2e06eeab0b484fef59b4483777dbb9e42a4198a0809ffbf698081fdbca1e5c2218b82b91603dfab10a10fbc
@@ -6709,7 +6680,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "@types/passport-local@npm:^1.0.38":
   version: 1.0.38
   resolution: "@types/passport-local@npm:1.0.38"
@@ -6740,8 +6710,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "@types/prettier@npm:^2.1.5":
   version: 2.7.3
   resolution: "@types/prettier@npm:2.7.3"
@@ -7517,8 +7485,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
-=======
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -7526,7 +7492,6 @@ __metadata:
   languageName: node
   linkType: hard
 
->>>>>>> Stashed changes
 "accepts@npm:~1.3.4, accepts@npm:~1.3.5, accepts@npm:~1.3.8":
   version: 1.3.8
   resolution: "accepts@npm:1.3.8"
@@ -7573,15 +7538,9 @@ __metadata:
   linkType: hard
 
 "acorn-walk@npm:^8.1.1":
-<<<<<<< Updated upstream
-  version: 8.3.0
-  resolution: "acorn-walk@npm:8.3.0"
-  checksum: 24346e595f507b6e704a60d35f3c5e1aa9891d4fb6a3fc3d856503ab718cc26cabb5e3e1ff0ff8da6ec03d60a8226ebdb602805a94f970e7f797ea3b8b09437f
-=======
   version: 8.3.1
   resolution: "acorn-walk@npm:8.3.1"
   checksum: a23d2f7c6b6cad617f4c77f14dfeb062a239208d61753e9ba808d916c550add92b39535467d2e6028280761ac4f5a904cc9df21530b84d3f834e3edef74ddde5
->>>>>>> Stashed changes
   languageName: node
   linkType: hard
 
@@ -7801,7 +7760,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "aproba@npm:^1.0.3 || ^2.0.0":
   version: 2.0.0
   resolution: "aproba@npm:2.0.0"
@@ -7819,8 +7777,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "arg@npm:^4.1.0":
   version: 4.1.3
   resolution: "arg@npm:4.1.3"
@@ -8117,6 +8073,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "axios@npm:1.6.2"
+  dependencies:
+    follow-redirects: "npm:^1.15.0"
+    form-data: "npm:^4.0.0"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 9b77e030e85e4f9cbcba7bb52fbff67d6ce906c92d213e0bd932346a50140faf83733bf786f55bd58301bd92f9973885c7b87d6348023e10f7eaf286d0791a1d
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^3.2.1":
   version: 3.2.1
   resolution: "axobject-query@npm:3.2.1"
@@ -8371,7 +8338,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "bcrypt@npm:^5.1.1":
   version: 5.1.1
   resolution: "bcrypt@npm:5.1.1"
@@ -8382,8 +8348,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "better-opn@npm:^3.0.2":
   version: 3.0.2
   resolution: "better-opn@npm:3.0.2"
@@ -8432,6 +8396,10 @@ __metadata:
   resolution: "binary@workspace:."
   dependencies:
     concurrently: "npm:^8.2.2"
+    eslint: "npm:^8.55.0"
+    eslint-config-standard-with-typescript: "npm:^42.0.0"
+    eslint-plugin-import: "npm:^2.29.0"
+    eslint-plugin-n: "npm:^16.3.1"
   languageName: unknown
   linkType: soft
 
@@ -9015,7 +8983,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "color-support@npm:^1.1.2":
   version: 1.1.3
   resolution: "color-support@npm:1.1.3"
@@ -9025,8 +8992,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "color2k@npm:^2.0.2":
   version: 2.0.3
   resolution: "color2k@npm:2.0.3"
@@ -9215,7 +9180,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "console-control-strings@npm:^1.0.0, console-control-strings@npm:^1.1.0":
   version: 1.1.0
   resolution: "console-control-strings@npm:1.1.0"
@@ -9223,8 +9187,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "constants-browserify@npm:^1.0.0":
   version: 1.0.0
   resolution: "constants-browserify@npm:1.0.0"
@@ -9269,7 +9231,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "cookie@npm:0.4.0":
   version: 0.4.0
   resolution: "cookie@npm:0.4.0"
@@ -9284,8 +9245,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "cookie@npm:0.5.0":
   version: 0.5.0
   resolution: "cookie@npm:0.5.0"
@@ -9383,7 +9342,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "csrf@npm:3.1.0":
   version: 3.1.0
   resolution: "csrf@npm:3.1.0"
@@ -9395,8 +9353,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "css-blank-pseudo@npm:^3.0.3":
   version: 3.0.3
   resolution: "css-blank-pseudo@npm:3.0.3"
@@ -9684,7 +9640,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "csurf@npm:^1.11.0":
   version: 1.11.0
   resolution: "csurf@npm:1.11.0"
@@ -9697,8 +9652,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "damerau-levenshtein@npm:^1.0.8":
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
@@ -9735,11 +9688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
-"debug@npm:4, debug@npm:4.x, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4":
-=======
 "debug@npm:4, debug@npm:4.x, debug@npm:^4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4":
->>>>>>> Stashed changes
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -9901,7 +9850,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "delegates@npm:^1.0.0":
   version: 1.0.0
   resolution: "delegates@npm:1.0.0"
@@ -9909,8 +9857,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "depd@npm:2.0.0, depd@npm:~2.0.0":
   version: 2.0.0
   resolution: "depd@npm:2.0.0"
@@ -9946,7 +9892,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "detect-libc@npm:^2.0.0":
   version: 2.0.2
   resolution: "detect-libc@npm:2.0.2"
@@ -9954,8 +9899,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "detect-newline@npm:^3.0.0":
   version: 3.1.0
   resolution: "detect-newline@npm:3.1.0"
@@ -10756,6 +10699,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-standard-with-typescript@npm:^42.0.0":
+  version: 42.0.0
+  resolution: "eslint-config-standard-with-typescript@npm:42.0.0"
+  dependencies:
+    "@typescript-eslint/parser": "npm:^6.4.0"
+    eslint-config-standard: "npm:17.1.0"
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^6.4.0
+    eslint: ^8.0.1
+    eslint-plugin-import: ^2.25.2
+    eslint-plugin-n: "^15.0.0 || ^16.0.0 "
+    eslint-plugin-promise: ^6.0.0
+    typescript: "*"
+  checksum: acc4f449cbc82382809e36290c621ae729c9cd92c3a8999b4e5520e55e10ba0227b18202b753a290ba01b95582a712d8904f7f171b456e98d4e0004302db7e87
+  languageName: node
+  linkType: hard
+
 "eslint-config-standard@npm:17.1.0":
   version: 17.1.0
   resolution: "eslint-config-standard@npm:17.1.0"
@@ -10906,7 +10866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^15.0.0 || ^16.0.0 ":
+"eslint-plugin-n@npm:^15.0.0 || ^16.0.0 , eslint-plugin-n@npm:^16.3.1":
   version: 16.4.0
   resolution: "eslint-plugin-n@npm:16.4.0"
   dependencies:
@@ -11045,7 +11005,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.0.1, eslint@npm:^8.3.0":
+"eslint@npm:^8.0.1, eslint@npm:^8.3.0, eslint@npm:^8.55.0":
   version: 8.56.0
   resolution: "eslint@npm:8.56.0"
   dependencies:
@@ -11247,7 +11207,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "express-session@npm:^1.17.3":
   version: 1.17.3
   resolution: "express-session@npm:1.17.3"
@@ -11264,8 +11223,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "express@npm:^4.17.3, express@npm:^4.18.2":
   version: 4.18.2
   resolution: "express@npm:4.18.2"
@@ -11593,7 +11550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.0":
   version: 1.15.3
   resolution: "follow-redirects@npm:1.15.3"
   peerDependenciesMeta:
@@ -11885,7 +11842,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "gauge@npm:^3.0.0":
   version: 3.0.2
   resolution: "gauge@npm:3.0.2"
@@ -11903,8 +11859,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "gensync@npm:^1.0.0-beta.2":
   version: 1.0.0-beta.2
   resolution: "gensync@npm:1.0.0-beta.2"
@@ -12276,7 +12230,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "has-unicode@npm:^2.0.1":
   version: 2.0.1
   resolution: "has-unicode@npm:2.0.1"
@@ -12284,8 +12237,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "hasown@npm:^2.0.0":
   version: 2.0.0
   resolution: "hasown@npm:2.0.0"
@@ -12458,7 +12409,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "http-errors@npm:~1.7.3":
   version: 1.7.3
   resolution: "http-errors@npm:1.7.3"
@@ -12472,8 +12422,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "http-parser-js@npm:>=0.5.1":
   version: 0.5.8
   resolution: "http-parser-js@npm:0.5.8"
@@ -15165,7 +15113,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "node-addon-api@npm:^5.0.0":
   version: 5.1.0
   resolution: "node-addon-api@npm:5.1.0"
@@ -15175,8 +15122,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "node-dir@npm:^0.1.17":
   version: 0.1.17
   resolution: "node-dir@npm:0.1.17"
@@ -15193,11 +15138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "node-fetch@npm:^2.0.0, node-fetch@npm:^2.6.7":
-=======
-"node-fetch@npm:^2.0.0":
->>>>>>> Stashed changes
   version: 2.7.0
   resolution: "node-fetch@npm:2.7.0"
   dependencies:
@@ -15253,19 +15194,11 @@ __metadata:
   linkType: hard
 
 "nodemon@npm:^3.0.1":
-<<<<<<< Updated upstream
-  version: 3.0.1
-  resolution: "nodemon@npm:3.0.1"
-  dependencies:
-    chokidar: "npm:^3.5.2"
-    debug: "npm:^3.2.7"
-=======
   version: 3.0.2
   resolution: "nodemon@npm:3.0.2"
   dependencies:
     chokidar: "npm:^3.5.2"
     debug: "npm:^4"
->>>>>>> Stashed changes
     ignore-by-default: "npm:^1.0.1"
     minimatch: "npm:^3.1.2"
     pstree.remy: "npm:^1.1.8"
@@ -15276,12 +15209,11 @@ __metadata:
     undefsafe: "npm:^2.0.5"
   bin:
     nodemon: bin/nodemon.js
-<<<<<<< Updated upstream
-  checksum: 471a218227949b38926de78237004c91e226b63ee06f433cf85c2f1c1f8b6bfbef9bceaa8d27786e7cfb539eb84da357d01741884d08a3ae172bebecd0f1de5b
+  checksum: 65837603fa790d723f8d59e1f098342ed5a5517c3a38ea3b52ca3d532ed21924ecd43fbaceadb458472ae0a8ae6b8395bda22ccd062709ad50c5c4537a625c9d
   languageName: node
   linkType: hard
 
-"nopt@npm:^5.0.0, nopt@npm:^7.0.0":
+"nopt@npm:^5.0.0":
   version: 5.0.0
   resolution: "nopt@npm:5.0.0"
   dependencies:
@@ -15289,8 +15221,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: fc5c4f07155cb455bf5fc3dd149fac421c1a40fd83c6bfe83aa82b52f02c17c5e88301321318adaa27611c8a6811423d51d29deaceab5fa158b585a61a551061
-=======
-  checksum: 65837603fa790d723f8d59e1f098342ed5a5517c3a38ea3b52ca3d532ed21924ecd43fbaceadb458472ae0a8ae6b8395bda22ccd062709ad50c5c4537a625c9d
   languageName: node
   linkType: hard
 
@@ -15302,7 +15232,6 @@ __metadata:
   bin:
     nopt: bin/nopt.js
   checksum: 9bd7198df6f16eb29ff16892c77bcf7f0cc41f9fb5c26280ac0def2cf8cf319f3b821b3af83eba0e74c85807cc430a16efe0db58fe6ae1f41e69519f585b6aff
->>>>>>> Stashed changes
   languageName: node
   linkType: hard
 
@@ -15359,7 +15288,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "npmlog@npm:^5.0.1":
   version: 5.0.1
   resolution: "npmlog@npm:5.0.1"
@@ -15372,8 +15300,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "nth-check@npm:^1.0.2":
   version: 1.0.2
   resolution: "nth-check@npm:1.0.2"
@@ -15781,7 +15707,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "passport-local@npm:^1.0.0":
   version: 1.0.0
   resolution: "passport-local@npm:1.0.0"
@@ -15809,8 +15734,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "path-browserify@npm:^1.0.1":
   version: 1.0.1
   resolution: "path-browserify@npm:1.0.1"
@@ -15891,7 +15814,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "pause@npm:0.0.1":
   version: 0.0.1
   resolution: "pause@npm:0.0.1"
@@ -15899,8 +15821,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "peek-stream@npm:^1.1.0":
   version: 1.1.3
   resolution: "peek-stream@npm:1.1.3"
@@ -17052,7 +16972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"proxy-from-env@npm:^1.0.0":
+"proxy-from-env@npm:^1.0.0, proxy-from-env@npm:^1.1.0":
   version: 1.1.0
   resolution: "proxy-from-env@npm:1.1.0"
   checksum: fe7dd8b1bdbbbea18d1459107729c3e4a2243ca870d26d34c2c1bcd3e4425b7bcc5112362df2d93cc7fb9746f6142b5e272fd1cc5c86ddf8580175186f6ad42b
@@ -17198,7 +17118,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "random-bytes@npm:~1.0.0":
   version: 1.0.0
   resolution: "random-bytes@npm:1.0.0"
@@ -17206,8 +17125,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "randombytes@npm:^2.1.0":
   version: 2.1.0
   resolution: "randombytes@npm:2.1.0"
@@ -17733,11 +17650,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "readable-stream@npm:^3.0.6, readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0, readable-stream@npm:^3.6.0":
-=======
-"readable-stream@npm:^3.0.6, readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0":
->>>>>>> Stashed changes
   version: 3.6.2
   resolution: "readable-stream@npm:3.6.2"
   dependencies:
@@ -18142,7 +18055,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "rndm@npm:1.2.0":
   version: 1.2.0
   resolution: "rndm@npm:1.2.0"
@@ -18150,8 +18062,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "rollup-plugin-terser@npm:^7.0.0":
   version: 7.0.2
   resolution: "rollup-plugin-terser@npm:7.0.2"
@@ -18217,11 +18127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
-"safe-buffer@npm:5.2.1, safe-buffer@npm:>=5.1.0, safe-buffer@npm:^5.1.0":
-=======
 "safe-buffer@npm:5.2.1, safe-buffer@npm:>=5.1.0, safe-buffer@npm:^5.1.0, safe-buffer@npm:~5.2.0":
->>>>>>> Stashed changes
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
   checksum: 6501914237c0a86e9675d4e51d89ca3c21ffd6a31642efeba25ad65720bce6921c9e7e974e5be91a786b25aa058b5303285d3c15dbabf983a919f5f630d349f3
@@ -18460,7 +18366,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "set-blocking@npm:^2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -18468,8 +18373,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "set-function-length@npm:^1.1.1":
   version: 1.1.1
   resolution: "set-function-length@npm:1.1.1"
@@ -18500,7 +18403,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "setprototypeof@npm:1.1.1":
   version: 1.1.1
   resolution: "setprototypeof@npm:1.1.1"
@@ -18508,8 +18410,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "setprototypeof@npm:1.2.0":
   version: 1.2.0
   resolution: "setprototypeof@npm:1.2.0"
@@ -18567,11 +18467,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "signal-exit@npm:^3.0.0, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
-=======
-"signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
->>>>>>> Stashed changes
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: 25d272fa73e146048565e08f3309d5b942c1979a6f4a58a8c59d5fa299728e9c2fcd1a759ec870863b1fd38653670240cd420dad2ad9330c71f36608a6a1c912
@@ -18867,11 +18763,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "statuses@npm:>= 1.4.0 < 2, statuses@npm:>= 1.5.0 < 2":
-=======
-"statuses@npm:>= 1.4.0 < 2":
->>>>>>> Stashed changes
   version: 1.5.0
   resolution: "statuses@npm:1.5.0"
   checksum: e433900956357b3efd79b1c547da4d291799ac836960c016d10a98f6a810b1b5c0dcc13b5a7aa609a58239b5190e1ea176ad9221c2157d2fd1c747393e6b2940
@@ -18940,11 +18832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "string-width-cjs@npm:string-width@^4.2.0, string-width@npm:^1.0.2 || 2 || 3 || 4, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.3":
-=======
-"string-width-cjs@npm:string-width@^4.2.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.3":
->>>>>>> Stashed changes
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
   dependencies:
@@ -19016,9 +18904,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
-"string_decoder@npm:^1.1.1, string_decoder@npm:~1.1.1":
-=======
 "string_decoder@npm:^1.1.1":
   version: 1.3.0
   resolution: "string_decoder@npm:1.3.0"
@@ -19029,7 +18914,6 @@ __metadata:
   linkType: hard
 
 "string_decoder@npm:~1.1.1":
->>>>>>> Stashed changes
   version: 1.1.1
   resolution: "string_decoder@npm:1.1.1"
   dependencies:
@@ -19567,7 +19451,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "toidentifier@npm:1.0.0":
   version: 1.0.0
   resolution: "toidentifier@npm:1.0.0"
@@ -19575,8 +19458,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "toidentifier@npm:1.0.1":
   version: 1.0.1
   resolution: "toidentifier@npm:1.0.1"
@@ -19690,13 +19571,8 @@ __metadata:
   linkType: hard
 
 "ts-node@npm:^10.9.1":
-<<<<<<< Updated upstream
-  version: 10.9.1
-  resolution: "ts-node@npm:10.9.1"
-=======
   version: 10.9.2
   resolution: "ts-node@npm:10.9.2"
->>>>>>> Stashed changes
   dependencies:
     "@cspotcode/source-map-support": "npm:^0.8.0"
     "@tsconfig/node10": "npm:^1.0.7"
@@ -19728,11 +19604,7 @@ __metadata:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-<<<<<<< Updated upstream
-  checksum: 95187932fb83f3901e22546bd2feeac7d2feb4f412f42ac3a595f049a23e8dcf70516dffb51866391228ea2dbcfaea039e250fb2bb334d48a86ab2b6aea0ae2d
-=======
   checksum: 5f29938489f96982a25ba650b64218e83a3357d76f7bede80195c65ab44ad279c8357264639b7abdd5d7e75fc269a83daa0e9c62fd8637a3def67254ecc9ddc2
->>>>>>> Stashed changes
   languageName: node
   linkType: hard
 
@@ -19817,7 +19689,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "tsscmp@npm:1.0.6":
   version: 1.0.6
   resolution: "tsscmp@npm:1.0.6"
@@ -19825,8 +19696,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "tsutils@npm:^3.21.0":
   version: 3.21.0
   resolution: "tsutils@npm:3.21.0"
@@ -20014,7 +19883,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "uid-safe@npm:2.1.5, uid-safe@npm:~2.1.5":
   version: 2.1.5
   resolution: "uid-safe@npm:2.1.5"
@@ -20024,8 +19892,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "unbox-primitive@npm:^1.0.2":
   version: 1.0.2
   resolution: "unbox-primitive@npm:1.0.2"
@@ -20347,11 +20213,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "utils-merge@npm:1.0.1, utils-merge@npm:^1.0.1":
-=======
-"utils-merge@npm:1.0.1":
->>>>>>> Stashed changes
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: 02ba649de1b7ca8854bfe20a82f1dfbdda3fb57a22ab4a8972a63a34553cf7aa51bc9081cf7e001b035b88186d23689d69e71b510e610a09a4c66f68aa95b672
@@ -20882,7 +20744,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
 "wide-align@npm:^1.1.2":
   version: 1.1.5
   resolution: "wide-align@npm:1.1.5"
@@ -20892,8 +20753,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-=======
->>>>>>> Stashed changes
 "word-wrap@npm:~1.2.3":
   version: 1.2.5
   resolution: "word-wrap@npm:1.2.5"

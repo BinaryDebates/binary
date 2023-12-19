@@ -9,18 +9,19 @@ export function OAuthRouter(userService: UserService) {
 
   router.post(
     '/user/register',
-    json(async (req: { body: User }) => {
+    json(async (req: { body: User }, res) => {
       const user: User = req.body;
       await userService.register(user);
+      res.send({ message: 'success' });
     }),
   );
 
-  router.post(
-    '/user/login',
-    json((req, res, next) => {
-      passport.authenticate('local')(req, res, next);
-    }),
-  );
+  // TODO: authenticate failure
+  router.post('/user/login', (req, res, next) => {
+    console.log('login!!!');
+    passport.authenticate('local')(req, res, next);
+    res.send({ message: 'success' });
+  });
 
   router.get(
     '/user/logout',

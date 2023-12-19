@@ -18,13 +18,16 @@ const passport_1 = __importDefault(require("passport"));
 const utils_1 = require("./utils");
 function OAuthRouter(userService) {
     const router = (0, express_1.Router)();
-    router.post('/user/register', (0, utils_1.json)((req) => __awaiter(this, void 0, void 0, function* () {
+    router.post('/user/register', (0, utils_1.json)((req, res) => __awaiter(this, void 0, void 0, function* () {
         const user = req.body;
         yield userService.register(user);
+        res.send({ message: 'success' });
     })));
-    router.post('/user/login', (0, utils_1.json)((req, res, next) => {
+    router.post('/user/login', (req, res, next) => {
+        console.log('login!!!');
         passport_1.default.authenticate('local')(req, res, next);
-    }));
+        res.send({ message: 'success' });
+    });
     router.get('/user/logout', (0, utils_1.json)((req, res) => {
         req.logOut({ keepSessionInfo: false }, () => { });
     }));

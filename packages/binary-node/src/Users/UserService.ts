@@ -23,7 +23,10 @@ export class UserService {
 
   public async getUserByEmail(email: string): Promise<User | null> {
     const UserModel = mongoose.model('User', UserSchema);
-    return await UserModel.findOne((user: User) => user.email === email);
+    const user = await UserModel.findOne({ email });
+    console.dir(user, { depth: null });
+
+    return user;
   }
 
   authenticateUser = async (
