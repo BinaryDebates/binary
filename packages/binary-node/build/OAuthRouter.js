@@ -23,13 +23,16 @@ function OAuthRouter(userService) {
         yield userService.register(user);
         res.send({ message: 'success' });
     })));
+    // TODO: authenticate failure
     router.post('/user/login', (req, res, next) => {
         console.log('login!!!');
-        passport_1.default.authenticate('local')(req, res, next);
-        res.send({ message: 'success' });
+        const status = passport_1.default.authenticate('local')(req, res, next);
+        console.dir(status, { depth: null });
+        res.send({ message: status !== undefined ? 'success' : 'failed to login' });
     });
     router.get('/user/logout', (0, utils_1.json)((req, res) => {
         req.logOut({ keepSessionInfo: false }, () => { });
+        res.send({ message: 'successfully logged out' });
     }));
     return router;
 }

@@ -16,17 +16,19 @@ export function OAuthRouter(userService: UserService) {
     }),
   );
 
-  // TODO: authenticate failure
   router.post('/user/login', (req, res, next) => {
     console.log('login!!!');
-    passport.authenticate('local')(req, res, next);
-    res.send({ message: 'success' });
+    const status = passport.authenticate('local')(req, res, next);
+    console.dir(status, { depth: null });
+    res.send({ message: status !== undefined ? 'success' : 'failed to login' });
   });
 
+  // TODO: error handle
   router.get(
     '/user/logout',
     json((req, res) => {
       req.logOut({ keepSessionInfo: false }, () => {});
+      res.send({ message: 'successfully logged out' });
     }),
   );
 

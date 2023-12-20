@@ -44,14 +44,14 @@ class UserService {
         this.authenticateUser = (email, password) => __awaiter(this, void 0, void 0, function* () {
             const user = yield this.getUserByEmail(email);
             if (user == null) {
-                return { error: null, user: false, message: 'No user with that email' };
+                return { error: 'Failed to login', user: false, message: 'No user with that email' };
             }
             try {
                 if (yield bcrypt.compare(password, user.password)) {
                     return { error: null, user };
                 }
                 else {
-                    return { error: null, user: false, message: 'Password incorrect' };
+                    return { error: 'Failed to login', user: false, message: 'Password incorrect' };
                 }
             }
             catch (e) {

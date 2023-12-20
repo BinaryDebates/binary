@@ -39,13 +39,13 @@ export class UserService {
   }> => {
     const user = await this.getUserByEmail(email);
     if (user == null) {
-      return { error: null, user: false, message: 'No user with that email' };
+      return { error: 'Failed to login', user: false, message: 'No user with that email' };
     }
     try {
       if (await bcrypt.compare(password, user.password)) {
         return { error: null, user };
       } else {
-        return { error: null, user: false, message: 'Password incorrect' };
+        return { error: 'Failed to login', user: false, message: 'Password incorrect' };
       }
     } catch (e) {
       return { error: e, user: false, message: 'Failed to authenticate user' };
