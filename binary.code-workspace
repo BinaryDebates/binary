@@ -1,41 +1,70 @@
 {
-    "folders": [
-      {
-        "path": ".",
-        "name": "binary"
-      },
-    ],
-    "settings": {
-        "editor.formatOnSave": true,
-        "[typescript]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[typescriptreact]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[javascript]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[jsonc]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[json]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[javascriptreact]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[yaml]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[scss]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[css]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode"
-          },
-          "[cucumber]": {
-            "editor.formatOnSave": false
-          },
+  "folders": [
+    {
+      "path": ".",
+      "name": "binary"
     }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/*.tsbuildinfo": true,
+      "**/.yarn": true,
+      "**/.betterer.results": true,
+      "**/lib": true,
+      "**/built": true,
+      "**/lib-types": true,
+      "**/node_modules": true,
+      "**/junit.xml": true,
+      "**/*.log": true,
+      "**/.model_cache": true
+    },
+    "editor.formatOnSave": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.workingDirectories": [{ "pattern": "./packages/*" }],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false, // default is true, which may override tabSize and insertSpaces
+    "eslint.debug": false,
+    "eslint.nodeEnv": "vs-code"
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "frigus02.vscode-sql-tagged-template-literals-syntax-only",
+      "orta.vscode-jest",
+      "ms-python.black-formatter",
+      "miaonster.vscode-tsx-arrow-definition",
+      "kimuson.ts-type-expand"
+    ]
+  }
 }

@@ -19,6 +19,7 @@ function attachRoutes(app) {
         const oAuthRouter = (0, OAuthRouter_1.OAuthRouter)(userService);
         const apiRouter = (0, express_1.Router)();
         apiRouter.use(oAuthRouter);
+        app.use('/api', apiRouter);
     });
 }
 exports.attachRoutes = attachRoutes;
