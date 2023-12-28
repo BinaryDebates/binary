@@ -23,6 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          corepack enable
           yarn install
           yarn run install  
           yarn run build
@@ -62,4 +63,4 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84B668817439451AB255EA1BD36D0B9F }}
 
       - name: 'Start serving the app'
-        run: yarn run serve
+        run: yarn set version latest --yarn-path && yarn run serve
