@@ -63,4 +63,4 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84B668817439451AB255EA1BD36D0B9F }}
 
       - name: 'Start serving the app'
-        run: yarn set version latest --yarn-path && yarn run serve
+        run: npm install --global yarn@4.0.2 && yarn run serve
